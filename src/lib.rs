@@ -1,5 +1,5 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
+pub fn open<P: AsRef<std::path::Path>>(path: P) -> Result<Db>{
+    Config
 }
 
 #[cfg(test)]
@@ -8,7 +8,6 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+        
     }
 }
